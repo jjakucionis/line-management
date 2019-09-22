@@ -1,0 +1,42 @@
+[
+    {
+        "number": 101,
+        "service": "A",
+        "timeRegistered": "09:27:23",
+        "timeServiced": "",
+        "name": "Petras",
+        "status": "waiting"
+    },
+    {
+        "number": 102,
+        "service": "B",
+        "timeRegistered": "09:29:23",
+        "timeServiced": "",
+        "name": "Jonas",
+        "status": "waiting"
+    },
+    {
+        "number": 103,
+        "service": "A",
+        "timeRegistered": "09:45:24",
+        "timeServiced": "",
+        "name": "Juozas",
+        "status": "waiting"
+    },
+    {
+        "number": 104,
+        "service": "C",
+        "timeRegistered": "09:49:20",
+        "timeServiced": "",
+        "name": "Kazys",
+        "status": "waiting"
+    },
+    {
+        "number": 105,
+        "service": "A",
+        "timeRegistered": "09:50:12",
+        "timeServiced": "",
+        "name": "Tomas",
+        "status": "waiting"
+    }
+]
