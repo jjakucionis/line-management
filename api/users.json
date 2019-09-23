@@ -3,25 +3,25 @@
         "number": 101,
         "service": "A",
         "timeRegistered": "09:27:23",
-        "timeServiced": "",
+        "timeServiced": "10:43:20",
         "name": "Petras",
-        "status": "waiting"
+        "status": "serviced"
     },
     {
         "number": 102,
         "service": "B",
         "timeRegistered": "09:29:23",
-        "timeServiced": "",
+        "timeServiced": "09:48:25",
         "name": "Jonas",
-        "status": "waiting"
+        "status": "serviced"
     },
     {
         "number": 103,
         "service": "A",
         "timeRegistered": "09:45:24",
-        "timeServiced": "",
+        "timeServiced": "10:57:12",
         "name": "Juozas",
-        "status": "waiting"
+        "status": "serviced"
     },
     {
         "number": 104,
@@ -34,6 +34,46 @@
     {
         "number": 105,
         "service": "A",
+        "timeRegistered": "09:50:12",
+        "timeServiced": "",
+        "name": "Tomas",
+        "status": "active"
+    },
+    {
+        "number": 106,
+        "service": "A",
+        "timeRegistered": "09:27:23",
+        "timeServiced": "",
+        "name": "Petras",
+        "status": "waiting"
+    },
+    {
+        "number": 107,
+        "service": "B",
+        "timeRegistered": "09:29:23",
+        "timeServiced": "",
+        "name": "Jonas",
+        "status": "active"
+    },
+    {
+        "number": 108,
+        "service": "A",
+        "timeRegistered": "09:45:24",
+        "timeServiced": "",
+        "name": "Juozas",
+        "status": "waiting"
+    },
+    {
+        "number": 109,
+        "service": "C",
+        "timeRegistered": "09:49:20",
+        "timeServiced": "",
+        "name": "Kazys",
+        "status": "waiting"
+    },
+    {
+        "number": 110,
+        "service": "B",
         "timeRegistered": "09:50:12",
         "timeServiced": "",
         "name": "Tomas",

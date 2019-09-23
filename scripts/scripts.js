@@ -16,6 +16,18 @@ function saveToLocal() {
     xhttp.send();
 };
 
+// saves default average time json to localStorage
+function saveAverageToLocal() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        localStorage.setItem("averageTime", this.responseText);
+      }
+    };
+    xhttp.open("GET", "./api/averageTime.json", true);
+    xhttp.send();
+};
+
 // register new user
 $("#registerNewUser__submit").on('click', function(e){
     let usserObject = {

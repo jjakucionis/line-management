@@ -10,31 +10,32 @@
 </head>
 <body>
     <main>
-        <section class="mx-auto mt-5" style="max-width: 700px;">
-            <h2 class="pb-5">Naujo vartotojo registracija</h2>
-            <form id="registerNewUser">
-                <div class="form-group">
-                    <label for="userName">Įveskite lankytojo vardą</label>
-                    <input type="name" class="form-control" id="userName" placeholder="Vardas" required>
+        <section>
+            <div class="window window--A">
+                <h3 class="title">Darbuotojas A</h3>
+                <div id="current-A" class="current"></div>
+                <div id="waiting-list-A" class="waiting-list">
+                    
                 </div>
-                <div class="form-group">
-                    <label for="serviceList">Paslaugų sąrašas:</label>
-                    <select class="form-control" id="serviceList" required>
-                        <option value selected disabled>Pasirinkite paslaugą</option>
-                        <option value="A">Paslauga A</option>
-                        <option value="B">Paslauga B</option>
-                        <option value="C">Paslauga C</option>
-                    </select>
+                <div><span class="hours">1</span> val <span class="minutes">45</span> min</div>
+            </div>
+            <div class="window window--B">
+                <h3 class="title">Darbuotojas B</h3>
+                <div id="current-B" class="current"></div>
+                <div id="waiting-list-B" class="waiting-list">
+                    
                 </div>
-                <button id="registerNewUser__submit" type="submit" class="btn btn-primary">Registruoti</button>
-            </form>
-            <div class="alert alert-success mt-3" role="alert" style="display: none;">
-                Registracija sėkminga.
+                <div><span class="hours">0</span> val <span class="minutes">15</span> min</div>
             </div>
-            <div class="alert-error alert alert-danger mt-3" role="alert" style="display: none;">
-                Registracija nepavyko. Bandykite dar kartą.
+            <div class="window window--C">
+                <h3 class="title">Darbuotojas C</h3>
+                <div id="current-C" class="current"></div>
+                <div id="waiting-list-C" class="waiting-list">
+                    
+                </div>
+                <div><span class="hours">0</span> val <span class="minutes">45</span> min</div>
             </div>
-        </section>          
+        </section>
     </main>
     <footer class="fixed-bottom pl-5">
         <button class="btn btn-secondary btn-sm" onclick="saveToLocal()">Insert default JSON to localStorage</button>
@@ -50,5 +51,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/lightbox.js"></script>
 </body>
 </html>
