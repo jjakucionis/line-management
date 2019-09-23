@@ -1,0 +1,50 @@
+.section--lightbox {
+    display: flex;
+    width: 100vw;
+}
+
+.window {
+    width: calc(100% / 3);
+    padding: 1em 2em;
+}
+
+.window .title {
+    text-align: center;
+}
+
+.current {
+    height: 50px;
+    background-color: #dbffd7;
+    text-align: center;
+}
+
+.current > div {
+    height: 100%;
+    font-size: 20px;
+    line-height: 2.5em;
+}
+
+.waiting-list {
+    height: 250px;
+    text-align: center;
+}
+
+.waiting-list > div {
+    height: 50px;
+    font-size: 20px;
+    line-height: 2.5em;
+}
+
+.avgHours {
+    padding-top: 20px;
+    position: relative;
+}
+
+.avgHours::after {
+    content: "Vidutinis aptarnavimo laikas:";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 10px;
+
+}
