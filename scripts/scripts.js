@@ -113,3 +113,8 @@ function clearLocal() {
     localStorage.clear("users");
 };
 
+// focus input field on page load
+window.onload = function() {
+    document.getElementById("userName").focus();
+}
+
