@@ -126,7 +126,6 @@ function clearLocal() {
 };
 
 // focus input field on page load
-window.onload = function() {
-    document.getElementById("userName").focus();
-}
-
+$('#registerNewUser').ready(function() {
+    $("#userName").focus();
+});
